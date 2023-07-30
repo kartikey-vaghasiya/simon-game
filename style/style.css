@@ -1,0 +1,53 @@
+/*  >>>>>>>>>>>>>>> Genral Css >>>>>>>>>>>>>>>>>>. */
+body {
+    background-color: black;
+    color:white;
+    text-align: center;
+}
+
+/* >>>>>>>>>>>>>>>> Heading >>>>>>>>>>>>>>>>>> */
+
+.heading  , .score {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100000;
+}
+
+/*  >>>>>>>>>>>>>>>>>>>> Simon Box >>>>>>>>>>>>>>>>>>>*/
+
+.red , .blue , .green , .yellow {
+    display: inline-block;
+    width: 12rem;
+    height: 192px;
+    margin: 10px 10px;
+    border-radius: 10%;
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.blue {
+    background-color: blue;
+}
+
+/* >>>>>>>>>>>>>>>>>> Footer >>>>>>>>>>>>>>>>> */
+
+footer {
+    padding:7% 0% 2%;
+    font-family: 'Amatic SC', cursive;
+    font-size: 2rem;    
+}
+
+/* >>>>>>>>>>>> Adder Css for js program >>>>>>>>>>>>>>>>> */
+
+.boxSelected {
+    opacity: 0.5;
+}   
